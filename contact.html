@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Discover Europe</title>
+<!-- Bootstrap -->
+<link href="bootstrap-3.3.5.css" rel="stylesheet" type="text/css">
+<link href="custom.css" rel="stylesheet" type="text/css">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#inverseNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <a class="navbar-brand" href="index.html"><img src="image/logo-E54C00.png" alt="Discover Europe Logo" class="img-responsive main_logo"></a></div>
+    <div class="nav-about text-center"> <span><a href="about.html">About</a></span> | <span class="active">Contact</span> </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="inverseNavbar1">
+      <ul class="nav navbar-nav text-center">
+        <li><a href="england.html">England</a></li>
+        <li><a href="france.html">France</a></li>
+        <li><a href="germany.html">Germany</a></li>
+        <li><a href="ireland.html">Ireland</a></li>
+        <li><a href="italy.html">Italy</a></li>
+        <li><a href="scotland.html">Scotland</a></li>
+        <li><a href="spain.html">Spain</a></li>
+        <li><a href="sweden.html">Sweden</a></li>
+        <li class="dropdown"> </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+<div class="container-fluid">
+  <div class="contact_h1">
+    <h1>Contact Us</h1>
+  </div>
+  <div class="row contact_p">
+    <div class="col-xs-12 col-sm-9 col-md-4 text-center">
+      <p>Our travel consultants are available to assist you: </p>
+      <p class="small">- Monday - Friday 6:00 a.m. - 6:00 p.m. MST </p>
+      <p class="small">- Saturday 7:00 a.m. - 3:30 p.m. MST </p>
+      <p class="small">- Sunday 7:00 a.m. - 3:30 p.m. MST</p>
+      <p>We thank you in advance for your inquiry.</p>
+      <br />
+    </div>
+    <div class="col-xs-12 col-sm-9 col-md-5">
+      <p>We're here to answer any questions you may have about your travel plans. Just fill out the information below and a Discover Europe travel expert will be in touch with you shortly. If there is something we can help you with right away, call 800-555-5555. </p>
+      <div class="scrollable">
+      <div id="contact_form">
+        <form action="http://www.hform.com/handler.cgi?10877246" method="post" enctype="application/x-www-form-urlencoded">
+          <fieldset>
+            <legend>About You</legend>
+            <div class="form-group">
+              <label for="firstname" class="control-label">First Name *</label>
+              <input name="name" type="text" required id="firstname" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label for="lastname" class="control-label">Last Name *</label>
+              <input name="name" type="text" required id="lastname" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label for="phone" class="control-label">Phone</label>
+              <input name="phone" id="phone" type="text" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label for="email2" class="control-label">Email Address *</label>
+              <input name="email" type="email" required id="email2" class="form-control" />
+            </div>
+            <h4>Student?</h4>
+            <div class="form-group">
+              <div class="col-sm-10 col-sm-offset-2">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="student" value="yes" id="student_0">
+                    Yes</label>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="student" value="no" id="student_1">
+                      No</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h4>Under Age 26?</h4>
+            <div class="form-group">
+              <div class="col-sm-10 col-sm-offset-2">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="age26" value="yes" id="age_0">
+                    Yes</label>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="age26" value="no" id="age_1">
+                      No</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>About Your Trip</legend>
+            <div class="form-group">
+              <label for="destination" class="control-label">Destination*</label>
+                <select name="destination" required class="form-control" id="destination">
+                  <option selected>Select One:</option>
+                  <option value="England">England</option>
+                  <option value="France">France</option>
+                  <option value="Germany">Germany</option>
+                  <option value="Ireland">Ireland</option>
+                  <option value="Italy">Italy</option>
+                  <option value="Scotland">Scotland</option>
+                  <option value="Spain">Spain</option>
+                  <option value="Sweden">Sweden</option>
+                  <option value="Other">Other</option>
+                </select>
+              <div class="form-group">
+                <label for="departure" class="control-label">Ideal Departure Date</label>
+                <div>
+                  <input type="date" id="departure" class="form-control-static">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="return" class="control-label">Ideal Return Date</label>
+                <div>
+                  <input type="date" id="return" class="form-control-static">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="airport" class="control-label">Ideal Departure Airport</label>
+                <input type="text" id="airport" name="airport" class="form-control">
+              </div>
+            </div>
+            <label for="comments" class="control-label">Message</label>
+            <textarea name="comments" id="comments" class="form-control"> </textarea>
+          </fieldset>
+          <div class="form-group">
+        <div>
+          <input type="submit" class="btn-primary btn-lg">
+        </div>
+      </div>
+        </form>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="row">
+    <div class="col-md-12">
+      <p class="text-center small">Call us at 800-555-5555</p>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-offset-0 col-xs-offset-2 icons col-md-offset-1">
+        <div class="col-xs-2"><img src="social-media/f-fb.png" alt="" width="32" height="32" class="center-block"/></div>
+        <div class="col-xs-2"><img src="social-media/f-in.gif" alt="" width="32" height="32" class="center-block"/></div>
+        <div class="col-xs-2"><img src="social-media/f-tu.png" alt="" width="32" height="32" class="center-block"/></div>
+        <div class="col-xs-2"><img src="social-media/f-tw.png" alt="" width="32" height="32" class="center-block"/></div>
+      </div>
+      <div class="col-xs-12 text-center small">
+        <span> © Discover Europe 2019 </span> <br> <span>Created with love by <a href="http://www.aishibata.com" target="_blank">aishibata.com</a></span>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="../../../js/jquery-1.11.3.min.js"></script> 
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="../../../js/bootstrap.js"></script>
+</body>
+</html>

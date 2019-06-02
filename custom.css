@@ -1,0 +1,339 @@
+@charset "UTF-8";
+
+html, body {
+             height: 100%;
+			 margin: 0;
+			 padding: 0;
+           }
+	
+
+/***Typography***/
+.tk-proxima-nova {
+	font-size: 1em;
+	}
+
+h1, h2 {
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-weight: 700;
+	font-size: 3.3em;
+}
+
+p, a {
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 1.1em;
+	}
+
+a, .active {
+	color: #068099;
+	}
+
+a:hover {
+	text-decoration: none;
+	}
+
+
+/***Navbar***/
+
+.navbar-toggle {
+  margin-top: 28px;
+  margin-bottom: 5px;
+}  
+
+.nav-about {
+	margin-top: 15px;
+	margin-bottom: 20px;
+
+} 
+
+.nav-about span {
+	padding: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.nav-about span a {
+	color: #aaa;
+}
+
+
+.nav-about span a:hover {
+	text-decoration:none;
+	color: #eee;
+	
+}
+
+.photo_caption {
+	padding: 2px 5px 0px;
+	background-color: #B0B0B0;
+	}
+
+.photo_caption p {
+	margin-bottom: 0;
+	}
+
+.country_div h1 {
+	margin-bottom: 20px;
+	}
+
+.main-text {
+	margin: 40px 20px;
+	}
+
+.main-text h1 {
+	margin-bottom: 40px;
+	}
+.row .col-xs-12 img, footer p {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+footer span, footer p {
+	color: #A6A6A6;
+	}
+	
+/*** Contact page ***/
+.contact_p {
+	margin: 0px 0px;
+	}
+	
+ 
+@media screen and (max-width:450px){
+.navbar-brand {
+	width: 60%;
+}
+
+}
+
+@media screen and (max-width:767px){
+.navbar {
+  min-height: 80px;
+  margin-bottom: 0px;
+  border: none;
+}
+
+.navbar-brand {
+	margin-bottom: 10px;
+
+}
+
+.nav > li {
+  display: inline-block;
+}
+
+
+.nav li {
+	width: 33%;
+	}
+	
+.main-text {
+	display: block;
+	margin: 40px 20px;
+	}
+	
+footer {
+	background-color:#222;
+	}
+
+footer .col-xs-12 {
+	margin-bottom: 20px;
+	}
+
+.carousel .carousel-inner .bg1 {
+	background-image: url('image/Berlin%20metropolis1%20-%20Alexander%20Cahlenstein.jpg');
+	height: 300px;
+	background-size: cover;
+	background-position: center center;
+}
+.carousel .carousel-inner .bg2 {
+background-image:url('image/Cornish coast1 - Tony Armstrong.jpg');
+	height: 300px;
+	background-size: cover;
+	background-position: center center;
+
+}
+.carousel .carousel-inner .bg3 {
+background-image:url('image/Germany prerow pier1 - Marcus Pink.jpg');
+	height: 300px;
+	background-size: cover;
+	background-position: center center;
+
+}
+
+h1 {
+	text-align: center;
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+/**vertical Navbar**/
+
+	.navbar-brand {
+		margin-bottom: 50px;
+		}
+		
+  .navbar-collapse {
+    height: auto;
+    border-top: 0;
+    box-shadow: none;
+    max-height: none;
+    padding-left:0;
+    padding-right:0;
+  }
+  .navbar-collapse.collapse {
+    display: block !important;
+    width: auto !important;
+    padding-bottom: 0px;
+    overflow: visible !important;
+  }
+  .navbar-collapse.in {
+    overflow-x: visible;
+  }
+
+.navbar
+{
+	float: left;
+	width: 20%;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0px;
+	border-radius: 0px;
+	height:100%;
+    position:relative;
+}	
+
+.navbar-nav,
+.navbar-nav > li,
+.navbar-left,
+.navbar-right,
+.navbar-header
+{float:none !important;}
+
+.navbar-right .dropdown-menu {left:0;right:auto;}
+.navbar-collapse .navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+}
+
+/*carousel */
+#carousel1 {
+	position: absolute;
+	display:inline;
+	width: 80%;
+	}
+
+.main-text {
+	position: absolute;
+	width: 60%;
+	top: 70px;
+	right: 40px;
+	color: #FFF;
+	text-align: right;
+	text-shadow: 0px 0px 10px hsla(0,0%,35%,0.66);
+}
+
+.carousel, .item, .active {
+height:100%;
+}
+.carousel-inner {
+height:100%;
+}
+.carousel {
+margin-bottom: 0px;
+}
+.carousel-caption {
+z-index: 10;
+}
+.carousel .item {
+background-color: #777;
+}
+
+.carousel .carousel-inner .bg {
+background-repeat:no-repeat;
+background-size: cover;
+}
+.carousel .carousel-inner .bg1 {
+background-image:url('image/Berlin metropolis1 - Alexander Cahlenstein.jpg');
+}
+.carousel .carousel-inner .bg2 {
+background-image:url('image/Cornish coast1 - Tony Armstrong.jpg');
+}
+.carousel .carousel-inner .bg3 {
+background-image:url('image/Germany prerow pier1 - Marcus Pink.jpg');
+}
+
+.carousel-control {
+  z-index: 10;
+}
+
+
+/*
+footer {
+	display: none;
+	}
+ */
+ 
+ footer {
+	 position: absolute;
+	 width: 20%;
+	 bottom: 20px;
+	 padding: 10px;
+	 }
+.icons img {
+	padding: 3px;
+}
+
+/***Contact page***/
+label, input p {
+	padding-right: 30px;
+}
+.country_photo {
+	width: 80%;
+	height: 50%;
+}
+
+.country_div {
+	overflow: scroll;
+	max-height: 48%; }
+	
+
+.contact_h1 {
+	width: 63%;
+	position: relative;
+	text-align:right; 
+	margin-top: 35px;
+	}
+
+.scrollable {
+  max-height: 500px;
+  width: 100%;
+  overflow-y: scroll;
+}
+}
+
+@media screen and (min-width:991px){
+	.contact_p {
+		margin-top: 80px;
+		}
+	input {
+		margin-bottom: 20px;
+		}	
+	
+}
+
+#submit {
+	border-radius: 5px;
+}
+
+
+.btn-primary {
+	border: none;
+	margin-top: 30px;
+	width: 100%;
+	background-color: #068099;
+	-webkit-transition: all .7s linear;
+	-o-transition: all .7s linear;
+	transition: all .7s linear;
+	}
+.btn-primary:hover {
+	background-color: #C96365;
+}
